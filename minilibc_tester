@@ -1,16 +1,113 @@
 #!/bin/bash
 #by MP mackendy-pierre Anselin
 
-if [ -e Makefile ]  && [ ! -e libasm.so ]
-    then
+
+compare_asm_and_system_function(){
+  echo -n -e "\e[33m\t${binary_name}\t\t\t\tRESULT : \t\e[33m\e[37m"
+  diff_res=$(diff -a ${system_file} ${asm_file})
+  ret=$?
+  if [ $ret == 0 ]; then
+    echo -e "\033[32m OK\033[00m";
+  else
+    echo -e "\033[31m KO\033[00m";
+    echo "left : expected right : your function"
+    echo ${diff_res}
+   fi
+}
+
+
+exec_system_function(){
+  binary_name=${binary_path##*/}
+  stock_path="${system_functions_path_folder}/${binary_name}.${system_function_extension}"
+  ./"$binary_path" > ${stock_path}
+  echo ${stock_path}
+}
+
+exec_asm_function(){
+  stock_path="${asm_functions_path_folder}/${binary_name}.${asm_function_extension}"
+  LD_PRELOAD=`pwd`/asm_test/minilibasm.so ./"$binary_path" > ${stock_path}
+  echo ${stock_path}
+}
+run_test_function()
+{
+  system_functions_path_folder="asm_test/result/my_system_functions"
+  asm_functions_path_folder="asm_test/result/my_asm_functions"
+  system_function_extension="system_function_result"
+  asm_function_extension="asm_function_result"
+  folder=asm_test/.asm_tester_functions/binaries/*
+  yourfilenames=`ls ${folder}`
+  for binary_path in ${yourfilenames}
+  do
+    binary_name=${binary_path##*/}
+    system_file=$(exec_system_function)
+    asm_file=$(exec_asm_function)
+    compare_asm_and_system_function ${binary_name} ${asm_file} ${system_file}
+  done
+}
+
+minilibc_tester_create_folder(){
+  if [[ ! -d asm_test ]]; then
+      mkdir asm_test
+      mkdir asm_test/result
+      mkdir asm_test/result/my_system_functions
+      mkdir asm_test/result/my_asm_functions
+  elif [[ ! -d asm_test/result ]]; then
+      mkdir asm_test/result
+      mkdir asm_test/result/my_system_functions
+      mkdir asm_test/result/my_asm_functions
+  fi
+
+  if [[ ! -d asm_test ]] || [[ ! -d asm_test/result ]]; then
+    echo "Error : cannot create asm_test folder"
+    exit 84
+  fi
+
+  if [[ ! -d asm_test/result/my_system_functions ]]; then
+      mkdir asm_test/result/my_system_functions
+  fi
+  if [[ ! -d asm_test/result/my_asm_functions ]]; then
+        mkdir asm_test/result/my_asm_functions
+  fi
+
+  if [[ ! -d asm_test/result/my_system_functions ]] || [[ ! -d asm_test/result/my_asm_functions ]]; then
+    echo "Error : cannot create asm_test result under folder"
+    exit 84
+  fi
+}
+
+minilibc_tester_setup(){
+  minilibc_tester_create_folder
+  if [[ -e Makefile ]]  && [[ ! -e libasm.so ]]; then
     make fclean
     make re
-fi
+  fi
 
-if [ ! -e libasm.so ]
-    then
+  if [[ ! -e libasm.so ]]; then
     echo "Error : The minilibc_tester must be in same repository than libam.so file"
     exit 84
-fi
+  elif [[ -e libasm.so ]]; then
+    cp libasm.so  asm_test/minilibasm.so
+  fi
 
-if ()
+  if [[ ! -d asm_tester_funtions ]];then
+    svn checkout https://github.com/MP-Anselin/Epitech_minilibc_asm/trunk/asm_tester_functions/binaries asm_test/.asm_tester_functions/binaries
+  fi
+
+  if [[ -d asm_test ]] && [[ -e minilibasm.so ]] && [[ -d .asm_tester_functions ]]; then
+    return 1
+  else
+    return 0
+  fi
+    return 0
+}
+
+function main_script(){
+  if minilibc_tester_setup; then
+    echo "Start to check your asm function"
+    run_test_function
+  else
+    exit 84
+  fi
+}
+
+main_script
