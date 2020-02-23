@@ -1,0 +1,1 @@
+/usr/lib64/ccache/cc -g   CMakeFiles/ASM_minilibc_2017.dir/test_functions/main.c.o CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c.o CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.o  -o ASM_minilibc_2017 
