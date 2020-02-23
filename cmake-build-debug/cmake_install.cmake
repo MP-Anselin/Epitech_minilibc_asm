@@ -1,4 +1,4 @@
-# Install script for directory: /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017
+# Install script for directory: /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

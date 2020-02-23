@@ -1,4 +1,4 @@
-/home/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017
+/home/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm
 -- The C compiler identification is GNU 9.2.1
 -- Check for working C compiler: /usr/lib64/ccache/cc
 -- Check for working C compiler: /usr/lib64/ccache/cc -- works
@@ -8,4 +8,4 @@
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug
+-- Build files have been written to: /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug

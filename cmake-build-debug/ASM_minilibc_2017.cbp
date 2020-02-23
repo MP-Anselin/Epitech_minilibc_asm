@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug"/>
+				<Option working_dir="/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug"/>
+				<Option working_dir="/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ASM_minilibc_2017">
-				<Option output="/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/ASM_minilibc_2017" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug"/>
+				<Option output="/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/ASM_minilibc_2017" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -39,15 +39,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 ASM_minilibc_2017"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 ASM_minilibc_2017"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ASM_minilibc_2017/fast">
-				<Option output="/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/ASM_minilibc_2017" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug"/>
+				<Option output="/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/ASM_minilibc_2017" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -57,33 +57,33 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 ASM_minilibc_2017/fast"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 ASM_minilibc_2017/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug"/>
+				<Option working_dir="/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/test_functions/main.c">
+		<Unit filename="/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/test_functions/main.c">
 			<Option target="ASM_minilibc_2017"/>
 		</Unit>
-		<Unit filename="/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/test_functions/test_memset.c">
+		<Unit filename="/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/test_functions/test_memset.c">
 			<Option target="ASM_minilibc_2017"/>
 		</Unit>
-		<Unit filename="/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/test_functions/test_strlen.c">
+		<Unit filename="/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/test_functions/test_strlen.c">
 			<Option target="ASM_minilibc_2017"/>
 		</Unit>
-		<Unit filename="/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/CMakeLists.txt">
+		<Unit filename="/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

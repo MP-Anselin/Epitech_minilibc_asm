@@ -43,10 +43,10 @@ RM = /home/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017
+CMAKE_SOURCE_DIR = /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug
+CMAKE_BINARY_DIR = /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ASM_minilibc_2017.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/ASM_minilibc_2017.dir/flags.make
 
 CMakeFiles/ASM_minilibc_2017.dir/test_functions/main.c.o: CMakeFiles/ASM_minilibc_2017.dir/flags.make
 CMakeFiles/ASM_minilibc_2017.dir/test_functions/main.c.o: ../test_functions/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ASM_minilibc_2017.dir/test_functions/main.c.o"
-	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ASM_minilibc_2017.dir/test_functions/main.c.o   -c /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/test_functions/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ASM_minilibc_2017.dir/test_functions/main.c.o"
+	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ASM_minilibc_2017.dir/test_functions/main.c.o   -c /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/test_functions/main.c
 
 CMakeFiles/ASM_minilibc_2017.dir/test_functions/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ASM_minilibc_2017.dir/test_functions/main.c.i"
-	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/test_functions/main.c > CMakeFiles/ASM_minilibc_2017.dir/test_functions/main.c.i
+	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/test_functions/main.c > CMakeFiles/ASM_minilibc_2017.dir/test_functions/main.c.i
 
 CMakeFiles/ASM_minilibc_2017.dir/test_functions/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ASM_minilibc_2017.dir/test_functions/main.c.s"
-	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/test_functions/main.c -o CMakeFiles/ASM_minilibc_2017.dir/test_functions/main.c.s
+	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/test_functions/main.c -o CMakeFiles/ASM_minilibc_2017.dir/test_functions/main.c.s
 
 CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c.o: CMakeFiles/ASM_minilibc_2017.dir/flags.make
 CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c.o: ../test_functions/test_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c.o"
-	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c.o   -c /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/test_functions/test_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c.o"
+	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c.o   -c /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/test_functions/test_memset.c
 
 CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c.i"
-	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/test_functions/test_memset.c > CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c.i
+	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/test_functions/test_memset.c > CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c.i
 
 CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c.s"
-	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/test_functions/test_memset.c -o CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c.s
+	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/test_functions/test_memset.c -o CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c.s
 
 CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.o: CMakeFiles/ASM_minilibc_2017.dir/flags.make
 CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.o: ../test_functions/test_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.o"
-	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.o   -c /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/test_functions/test_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.o"
+	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.o   -c /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/test_functions/test_strlen.c
 
 CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.i"
-	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/test_functions/test_strlen.c > CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.i
+	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/test_functions/test_strlen.c > CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.i
 
 CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.s"
-	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/test_functions/test_strlen.c -o CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.s
+	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/test_functions/test_strlen.c -o CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.s
 
 # Object files for target ASM_minilibc_2017
 ASM_minilibc_2017_OBJECTS = \
@@ -110,7 +110,7 @@ ASM_minilibc_2017: CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_memset.c
 ASM_minilibc_2017: CMakeFiles/ASM_minilibc_2017.dir/test_functions/test_strlen.c.o
 ASM_minilibc_2017: CMakeFiles/ASM_minilibc_2017.dir/build.make
 ASM_minilibc_2017: CMakeFiles/ASM_minilibc_2017.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ASM_minilibc_2017"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ASM_minilibc_2017"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ASM_minilibc_2017.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/ASM_minilibc_2017.dir/clean:
 .PHONY : CMakeFiles/ASM_minilibc_2017.dir/clean
 
 CMakeFiles/ASM_minilibc_2017.dir/depend:
-	cd /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017 /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017 /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug /home/Documents/Epitech/tek2/asm/ASM_minilibc_2017/cmake-build-debug/CMakeFiles/ASM_minilibc_2017.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug /home/Documents/Epitech/tek2/asm/Epitech_minilibc_asm/cmake-build-debug/CMakeFiles/ASM_minilibc_2017.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ASM_minilibc_2017.dir/depend
 
