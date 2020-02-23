@@ -10,7 +10,7 @@ compare_asm_and_system_function(){
     echo -e "\033[32m OK\033[00m";
   else
     echo -e "\033[31m KO\033[00m";
-    echo "left : expected right : your function"
+    echo "left : what's expected --- > right : your function"
     echo ${diff_res}
    fi
 }
