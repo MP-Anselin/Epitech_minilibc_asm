@@ -27,7 +27,7 @@ int main(void)
 	chr_res = strchr(str1, seek);
 	printf(" => result: \"%s\"\n",  chr_res);
 	printf("---->look for '0' in \"%s\"\n", str);
-	chr_res = strrchr(str1, 0);
+	chr_res = strchr(str1, 0);
 	printf(" => result: \"%s\"\n", chr_res);
 
 	// Use of strrchr()
