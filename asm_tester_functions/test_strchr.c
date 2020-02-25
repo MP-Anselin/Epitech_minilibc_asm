@@ -28,6 +28,12 @@ int main(void)
 	printf(" => result: \"%s\"\n",  chr_res);
 	printf("---->look for '0' in \"%s\"\n", str);
 	chr_res = strchr(str1, 0);
+	printf(" => result: \"%s\"\n",  chr_res);
+	printf("---->look for '0' in \"%s\"\n", str);
+	chr_res = strchr(str1, 0);
+	printf(" => result: \"%s\"\n",  chr_res);
+	printf("---->look for '%c' in \"\"\n", seek);
+	chr_res = strchr("", seek);
 	printf(" => result: \"%s\"\n", chr_res);
 
 	// Use of strrchr()
