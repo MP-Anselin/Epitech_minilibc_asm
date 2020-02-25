@@ -26,6 +26,9 @@ int main(void)
 	printf("look for '%c' in \"%s\"\n", seek, str1);
 	chr_res = strchr(str1, seek);
 	printf(" => result: \"%s\"\n",  chr_res);
+	printf("look for '%c' in \"0\"\n", str);
+	chr_res = strrchr(str1, 0);
+	printf(" => result: \"%s\"\n", chr_res);
 
 	// Use of strrchr()
 	// returns "ks"
@@ -39,5 +42,6 @@ int main(void)
 	printf("look for '%c' in \"%s\"\n", seek2, str);
 	chr_res = strrchr(str, seek2);
 	printf(" => result: \"%s\"\n", chr_res);
+
 	return (0);
 }
