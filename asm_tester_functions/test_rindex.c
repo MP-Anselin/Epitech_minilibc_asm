@@ -6,6 +6,7 @@
 ** rindex.c description:
 **
 */
+#include "minilibc.h"
 
 int main(void)
 {
@@ -22,7 +23,7 @@ int main(void)
 	printf("str: \"%s\"\tstr1: \"%s\"\tlook for seek: '%c'\tlook for seek1: '%c'\tlook for seek2: '%c\n", str, str1, seek, seek1, seek2);
 	// Use of strrchr()
 	// returns "ks"
-	printf("\nAfter rindex");
+	printf("\nAfter rindex\n");
 	printf("look for '%c' in \"%s\"\n", seek1, str);
 	chr_res = rindex(str, seek1);
 	printf(" => result: \"%s\"\n", chr_res);
